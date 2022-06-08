@@ -1,0 +1,90 @@
+* {
+    margin: 0px;
+    padding: 0px
+}
+
+nav div {
+    background-color: #b7464e;
+    height: 130px;
+    display: flex;
+    justify-content: center;
+}
+
+.logo1 {
+    height: 120px;
+    width: 120px;
+    border-radius: 100%;
+}
+
+main {
+    height: 800px;
+    width: 100%;
+    background-color: #2d2c49;
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    margin-top: 20px;
+    height: 450px;
+}
+
+.controls {
+    width: 98%;
+    padding-left: 2%;
+}   
+
+.skip {
+    display: none;
+}
+
+.card-top {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-body img {
+    height: 280px;
+    width: 280px;
+}
+
+#artista {
+    padding-left: 8px;
+}
+#cancion {
+    padding-left: 100px;
+}
+
+@media (min-width: 1024px) {
+
+    nav div {
+        justify-content: flex-start;
+    }
+
+    .card {
+        width: 450px;
+    }
+
+    .card-top {
+        display: none;
+    }
+
+    .card-body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .card-body img {
+        height: 300px;
+        width: 300px;
+        margin-left: 15px;
+        margin-right: 15px;
+    
+    }
+
+    
+    .skip {
+        display: flex;
+    }
+}
